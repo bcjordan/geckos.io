@@ -1,5 +1,5 @@
 {
-  "name": "geckos.io",
+  "name": "@bcjordan/geckos.io",
   "description": "Real-time client/server communication over UDP using WebRTC and Node.js",
   "version": "2.0.0",
   "private": true,

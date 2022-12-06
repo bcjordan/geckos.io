@@ -1,6 +1,6 @@
 {
-  "name": "@geckos.io/server",
-  "version": "2.2.3",
+  "name": "@bcjordan/geckos-io-server",
+  "version": "2.3.6",
   "description": "Real-time client/server communication over UDP using WebRTC and Node.js",
   "main": "./lib/index.js",
   "types": "./lib/index.d.ts",
@@ -43,9 +43,9 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
+    "@bcjordan/node-datachannel": "^0.4.5",
     "@geckos.io/common": "^2.2.3",
-    "@yandeu/events": "0.0.6",
-    "node-datachannel": "git://github.com/murat-dogan/node-datachannel.git#040bf82bba3b11aa45732e24878e2948f6655de4"
+    "@yandeu/events": "0.0.6"
   },
   "funding": {
     "url": "https://github.com/sponsors/yandeu"

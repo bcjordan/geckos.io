@@ -1,6 +1,6 @@
 /* eslint-disable sort-imports */
-import ndc from 'node-datachannel'
-import type { DataChannel, DataChannelInitConfig, PeerConnection, RtcConfig } from 'node-datachannel'
+import ndc from '@bcjordan/node-datachannel'
+import type { DataChannel, DataChannelInitConfig, PeerConnection, RtcConfig } from '@bcjordan/node-datachannel'
 export type { DataChannel, DataChannelInitConfig, PeerConnection, RtcConfig }
 
 export const wait = (ms: number = 1000): Promise<void> => {
